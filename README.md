@@ -47,7 +47,7 @@ Things you may want to cover:
 
 ### Association
 - belongs_to :user
-- belong_to :group
+- belongs_to :group
 
 
 ## groupsテーブル
