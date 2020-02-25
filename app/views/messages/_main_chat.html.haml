@@ -1,0 +1,27 @@
+.main_chat
+  .main_chat__group-info
+    .main_chat__group-info__leftbox
+      .main_chat__group-info__leftbox__current-group
+        test
+      .main_chat__group-info__leftbox__member-list
+        Member:masa
+    .main_chat__group-info__edit-btn
+      Edit
+  .main_chat__message-list
+    .main_chat__message-list__upper-info
+      .main_chat__message-list__upper-info__talker
+        masa
+      .main_chat__message-list__upper-info__date
+        2020/02/20(THU)15:00:00
+    .main_chat__message-list__text
+      おはよう
+  .main_chat__message-form
+    .main_chat__message-form__new-message
+      .main_chat__message-form__new-message__input-box
+        .main_chat__message-form__new-message__input-box__text
+          type a message
+        %label.main_chat__message-form__new-message__input-box__image
+          = icon('fas', 'image')
+          %input{type: "file", class: "main_chat__message-form__new-message__input-box__image__1"}
+      .main_chat__message-form__new-message__submit-btn
+        Send

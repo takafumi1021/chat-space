@@ -1,0 +1,42 @@
+.side_bar{
+  color: white;
+  background-color: #253141;
+  width: 300px;
+  &__user-name {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    &__top-items {
+      display: flex;
+      width:260px;
+      margin:0 20px;
+      line-height: 20px;
+      flex-direction: row;
+      justify-content: space-between;
+      &__name {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      &__icons {
+        width: 60px;
+        text-align: right;
+        &-icon {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &__group-list {
+    height: calc(100vh - 100px);
+    background-color: #2f3e51;
+    padding: 20px;
+    &__group-name {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+    &__latest-message {
+      font-size: 11px;
+    }
+  }
+}
