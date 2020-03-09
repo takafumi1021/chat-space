@@ -30,8 +30,8 @@ $(function() {
               ${message.created_at}
             </div>
           </div>
-          <div class="message__lower-message">
-            <p class="message__lower-message__content">
+          <div class="message__text">
+            <p class="lower-message__content">
                 ${message.content}
               </p>
             </div>
