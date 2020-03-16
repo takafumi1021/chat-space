@@ -20,3 +20,7 @@
 public/uploads/*
 
 .DS_Store
+
+# secrets.ymlは各種パスワードを扱うためのファイルです。
+# 必ず以下の操作を行って、pushされないようにしましょう。
+config/secrets.yml
